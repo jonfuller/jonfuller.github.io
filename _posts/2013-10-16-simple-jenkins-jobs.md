@@ -6,8 +6,6 @@ categories:
 date: 2013-10-16 09:00
 ---
 
-Title: Simple Jenkins Jobs
-
 Jenkins is one of my favorite tools in my toolbox.
 
 Jenkins is awesome in that he can do just about everything.  Things like:
