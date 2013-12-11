@@ -4,4 +4,4 @@ lsi: false
 markdown: redcarpet
 
 colors:
-  highlight: '#47AB48'
+  highlight: '#2ECC71'
