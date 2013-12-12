@@ -31,12 +31,11 @@ There are typically two types of node failures:
 
 1. Create a free-style Jenkins job.
 1. (no source control necessary)
-1. Make a build step for "execute shell" with the following contents:
+1. Make a build step for "execute shell" with the following contents (replace `slave-hostname` with the hostname of your slave):
 
 ```bash
 ping -c 4 slave-hostname
 ```
-
 1. Save.
 1. Bask in the glory of your newly monitored slave.
 
@@ -46,13 +45,13 @@ Jenkins obviously knows that a slave isn't connected... but doesn't give us a gr
 
 ![slaves](/static/jenkins-slaves.png)
 
-This information is available in the Jenkins _computer_ API.
+This information _is_ available in the Jenkins _computer_ API.
 
 So...
 
 1. Create a free-style Jenkins job.
 1. (again, no source control necessary)
-1. Make a build step for "execute shell" with the following contents:
+1. Make a build step for "execute shell" with the following contents (replace `slave-hostname` with the hostname of your slave):
 
 ```bash
 ENDPOINT="http://jenkins.sep.com/computer/api/xml?xpath=computerSet/computer\[displayName='slave-hostname'\]/offline"
