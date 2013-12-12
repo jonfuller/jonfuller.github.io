@@ -9,7 +9,7 @@ date: 2013-12-12 09:00
 Ever wanted to monitor the status of your [Jenkins](www.jenkins-ci.org) slaves?
 As I've said before, [Jenkins is one of my favorite tools](http://jonfuller.co/blog/2013/10/16/simple-jenkins-jobs.html).
 
-Since we program [all the things](http://www.sep.com/services/software-development/), we need many different build environments; so [slaves](https://wiki.jenkins-ci.org/display/JENKINS/Distributed+builds) to the rescue.
+At [SEP](http://www.sep.com), we program [all the things](http://www.sep.com/services/software-development/), so we need many different build environments.  Jenkins [slaves](https://wiki.jenkins-ci.org/display/JENKINS/Distributed+builds) to the rescue!
 
 We have several slaves that run the following environments:
 
