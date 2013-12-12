@@ -32,9 +32,9 @@ There are typically two types of node failures:
 1. Create a free-style Jenkins job.
 1. (no source control necessary)
 1. Make a build step for "execute shell" with the following contents (replace `slave-hostname` with the hostname of your slave):
-```bash
-ping -c 4 slave-hostname
-```
+
+         ping -c 4 slave-hostname
+
 1. Save.
 1. Bask in the glory of your newly monitored slave.
 
@@ -52,16 +52,13 @@ So...
 1. (again, no source control necessary)
 1. Make a build step for "execute shell" with the following contents (replace `slave-hostname` with the hostname of your slave):
 
-```bash
-ENDPOINT="http://jenkins.sep.com/computer/api/xml?xpath=computerSet/computer\[displayName='slave-hostname'\]/offline"
-ENDPOINT_RESULT=$(curl $ENDPOINT 2> /dev/null)
-
-if [ $ENDPOINT_RESULT = "<offline>false</offline>" ] ; then
-  exit 0
-fi
-exit 1
-```
-
+         ENDPOINT="http://jenkins.sep.com/computer/api/xml?xpath=computerSet/computer\[displayName='slave-hostname'\]/offline"
+         ENDPOINT_RESULT=$(curl $ENDPOINT 2> /dev/null)
+         
+         if [ $ENDPOINT_RESULT = "<offline>false</offline>" ] ; then
+           exit 0
+         fi
+         exit 1
 1. Save.
 1. Enjoy the piece-of-mind knowing that your slave status is now monitored by a Jenkins job.
 
