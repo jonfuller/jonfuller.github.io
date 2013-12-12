@@ -62,3 +62,6 @@ So...
 1. Save.
 1. Enjoy the piece-of-mind knowing that your slave status is now monitored by a Jenkins job.
 
+## Now what?
+
+Once I had Jenkins jobs for monitoring my slaves, I can hook them up to any sort of notification system I want.  For example, I have the [twilio](http://www.twilio.com/) plugin set up to send me a text message anytime a build node goes down, so I can go hook it back up.
