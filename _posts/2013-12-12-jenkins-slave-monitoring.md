@@ -32,7 +32,6 @@ There are typically two types of node failures:
 1. Create a free-style Jenkins job.
 1. (no source control necessary)
 1. Make a build step for "execute shell" with the following contents (replace `slave-hostname` with the hostname of your slave):
-
 ```bash
 ping -c 4 slave-hostname
 ```
