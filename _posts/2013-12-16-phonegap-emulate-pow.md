@@ -30,5 +30,5 @@ Pow can host static sites (like my PhoneGap webapp) as easily as it does ruby/ra
 
          (~/.pow) $ ln -s ~/dev/my_phonegap_app
 
-1. Emulate your app: [http://emulate.phonegap.com/](http://emulate.phonegap.com/).  Your app is available at the URL: [http://my_phonegap_app.dev](http://my_phonegap_app.dev) (of course, changing `my_phonegap_app` to the actual name of the directory)
+1. Emulate your app: [http://emulate.phonegap.com/](http://emulate.phonegap.com/).  Your app is available at the URL: [http://my_phonegap_app.dev](`http://my_phonegap_app.dev`) (of course, changing `my_phonegap_app` to the actual name of the directory)
 1. Continue PhoneGapping.
