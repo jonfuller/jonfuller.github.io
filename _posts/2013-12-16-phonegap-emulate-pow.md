@@ -3,7 +3,7 @@ layout: post
 title: PhoneGap Emulate - POW
 categories:
 - blog
-date: 2013-16-09:00
+date: 2013-12-16-09:00
 ---
 
 I'm working on a prototype using [PhoneGap](http://www.phonegap.com) and ran across the awesome [PhoneGap Emulator](http://emulate.phonegap.com/).  The emulator lets you run your web app as if you're in a device simulator/emulator (note however, that it doesn't emulate the particular device's rendering engine... it's always Chrome).
