@@ -24,11 +24,11 @@ Pow can host static sites (like my PhoneGap webapp) as easily as it does ruby/ra
 
 1. Add a symbolic link from the `www` directory to create a `public` directory:
 
-         (~/dev/my_phonegap_app) $ ln -s www public
+         (~/dev/myphonegapapp) $ ln -s www public
 
 1. Hook it into Pow:
 
-         (~/.pow) $ ln -s ~/dev/my_phonegap_app
+         (~/.pow) $ ln -s ~/dev/myphonegapapp
 
-1. Emulate your app: [http://emulate.phonegap.com/](http://emulate.phonegap.com/).  Your app is available at the URL: [http://my_phonegap_app.dev](`http://my_phonegap_app.dev`) (of course, changing `my_phonegap_app` to the actual name of the directory)
+1. Emulate your app: [http://emulate.phonegap.com/](http://emulate.phonegap.com/).  Your app is available at the URL: [http://myphonegapapp.dev](http://myphonegapapp.dev) (of course, changing `myphonegapapp` to the actual name of the directory)
 1. Continue PhoneGapping.
