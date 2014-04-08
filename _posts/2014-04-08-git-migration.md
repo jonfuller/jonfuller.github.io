@@ -5,8 +5,6 @@ categories:
 - blog
 date: 2014-04-08 10:00
 ---
-# Moving Git Servers
-
 I recently migrated [SEP](http://www.sep.com) from using an old crusty version of gitorious, to a new shiny version of [gitlab](http://gitlab.com).
 
 Overall, it was a pretty smooth process, here's a chronicle of some of the events, and some things to think about/look out for when doing a tool migration like this.
