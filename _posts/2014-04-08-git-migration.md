@@ -48,6 +48,8 @@ Anyways, given the completeness of the gitlab API, it was relatively easy to com
 1. Add _projects_ (repositories) and their associated members.
 1. Push source code.
 
+Here is the code for the importer... it's a little less hackety than the exporter since I could use a real API.  [https://github.com/sep/gitlab-import](https://github.com/sep/gitlab-import)
+
 ## Done, right?
 
 As with any widespread change that's going to affect the rest of the company... there's a couple other things to do.  __Test, Test, Test__ and __Spread the word__.
