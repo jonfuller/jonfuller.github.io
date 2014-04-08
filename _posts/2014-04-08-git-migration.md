@@ -70,7 +70,7 @@ Things I thought about:
 * SSH Keys
 * Even if people read email, they won't do what they need to do.
 
-## Things I didn't think about:
+Things I didn't think about:
 
 * One of the reason's we're moving away from the system struck at the moment I went to do the export.  This added 3 hours to the process.
 * Gitlab doesn't support the _git protocol_ (i.e. `git://whatever.org/repo.git`).
