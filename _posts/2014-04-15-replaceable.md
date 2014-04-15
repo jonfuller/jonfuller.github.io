@@ -18,12 +18,12 @@ This not only benefits the whole (i.e. raising the water level), it also benefit
 
 ### Tactics
 
-I recently left a project where I played tech lead for a couple of the major components (UI and workflow).  We knew from the get go that I was going to roll off the project, and leave a less-experienced engineer on the project to continue to add new features once we had solidified the core.
+Awhile back I left a project where I played tech lead for a couple of the major components (UI and workflow).  We knew from the get go that I was going to roll off the project, and leave a less-experienced engineer on the project to continue to add new features once we had solidified the core.
 
 Here are a handful of techniques I used to help him _fall into the pit of success_ after I left:
 
 1. __Conventions__ - We were using .NET on this project, but we did some very non-mainstream (at the time) things.  Lots of convention over configuration for registering and loading instances and views.  This helped us keep the code tight, delcarative, and well-tested.
-1. __Focus, Direction, and Tone__ - Your code needs to tell a story.  It needs focus so the story is clear; direction so the story it's easy to tell where the story is heading; and tone so we know how the author intends for the story to be told.
+1. __Focus, Direction, and Tone__ - Your code needs to tell a story.  It needs focus so the story is clear; direction so the story is easy to tell where the story is heading; and tone so we know how the author intends for the story to be told.
 1. __Teach, Teach, Teach__ - When working with anyone that isn't as familiar with what you're doing as you are, it's seductively easy to give short (and correct) answers to questions, but it's more fun and rewarding in the long run to turn any given question into a learning experience.
 
     __Use fishing pole, rather than giving out fish.__
