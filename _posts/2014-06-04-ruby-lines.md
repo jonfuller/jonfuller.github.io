@@ -12,7 +12,7 @@ The first couple times it's a little annoying that I need to `require` whatever 
 
 You might be thinking: "Just type `rails c`, duh!"
 
-And I would tell you I don't do rails... _on principle_!
+And I would tell you I don't do Rails... _on principle_!
 
 I picked up a trick a couple years ago that lets me automate this process and give me a nice `rails c` like console... and it's only 3 lines of code.
 
@@ -29,7 +29,7 @@ Okay, it's actually 6, but the meat is only 3.
 
 Now I can type `rake console` and bam, I'm sitting at an irb prompt, inside the context of my application (I'm also assuming either your `Rakefile` or that `load_app` task loads up all the things you want to play around with at your console).
 
-The above example is for a [sinatra app](https://h2w.cc) I'm working on.  The next example is for a [git server migration script](https://github.com/sep/gitlab-import) (that [I wrote about a little while ago](http://jonfuller.co/blog/2014/04/08/git-migration.html)).  It doesn't have an application to load, but does have a couple handy files to require, and then it even instantiates a class and tells me how to access it:
+The above example is for a [Sinatra app](https://h2w.cc) I'm working on.  The next example is for a [git server migration script](https://github.com/sep/gitlab-import) (that [I wrote about a little while ago](http://jonfuller.co/blog/2014/04/08/git-migration.html)).  It doesn't have an application to load, but does have a couple handy files to require, and then it even instantiates a class and tells me how to access it:
 
     desc 'an irb console with export data and the gitlab api available.'
     task :console do
