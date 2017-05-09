@@ -6,7 +6,7 @@ Spelling/grammar corrections are always welcome (and much appreciated :heart:) v
 
 ---
 ### Theme
-The theme is [Lagom](https://github.com/swanson/lagom), tweaked to [swanson](https://github.com/swanson)'s liking. 
+The theme is [Lagom](https://github.com/swanson/lagom), tweaked to [swanson](https://github.com/swanson)'s liking 
 
 ---
 
